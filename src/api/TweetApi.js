@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/tweet";
+const API_URL = "http://localhost:3000/tweet"; // Backend 3000’de çalışıyor
 
 export const getTweetsByUser = async (userId) => {
   try {

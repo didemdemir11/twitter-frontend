@@ -5,7 +5,7 @@ const TweetList = () => {
   const [tweets, setTweets] = useState([]);
 
   useEffect(() => {
-    getTweetsByUser(1).then(setTweets); // Örnek olarak userId=1
+    getTweetsByUser(1).then(setTweets);
   }, []);
 
   return (
